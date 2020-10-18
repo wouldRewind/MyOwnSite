@@ -1,0 +1,188 @@
+.header {
+  position: relative;
+}
+
+.block {
+  border-bottom: 2px solid #CFDADB;
+  padding-bottom: 25px;
+}
+
+.main {
+  padding-left: 20px;
+}
+
+.main .profile .block__title {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.my {
+  font-size: 2rem;
+}
+
+.education-block {
+  width: 40%;
+}
+
+.education-block__text {
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.education-block__title {
+  color: #171717;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1020px) {
+  .me-img {
+    margin-top: 30px;
+  }
+  .wrapper {
+    grid-template: 1fr 1fr /1fr;
+  }
+  .skills-item {
+    justify-content: flex-start;
+  }
+  div.me-img {
+    position: static;
+    top: 0;
+    margin-bottom: 15px;
+  }
+  .text {
+    text-align: left;
+  }
+  .wrap {
+    align-items: flex-start;
+  }
+  .wrap > *:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .wrapper {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 950px) {
+  .text {
+    font-size: 17px;
+  }
+  .title {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 17px !important;
+  }
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .wrap {
+    display: block;
+  }
+  .education-block {
+    margin: 0 auto;
+    width: 60%;
+  }
+  .education-block:first-child {
+    border-bottom: 2px solid #B7C7C9;
+    padding-bottom: 20px;
+  }
+  main {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 615px) {
+  .me {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .me-img img {
+    width: 180px;
+  }
+  .education-block {
+    width: 100%;
+  }
+  .education .text {
+    text-align: left;
+  }
+  .education h2, .education h3, .education h2 .profile__title .title {
+    text-align: left;
+  }
+  .education body {
+    display: none !important;
+  }
+}
+
+.experience__title {
+  margin-bottom: 40px;
+}
+
+.experience-block__date {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.experience-block__title {
+  margin-top: 10px;
+  margin-bottom: 7px;
+  color: #171717;
+  font-weight: bold;
+}
+
+.experience-block__title .first {
+  margin-top: 40px;
+}
+
+.experience-block__subtitle {
+  margin-bottom: 3px;
+}
+
+.decor {
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #171717;
+  margin-right: 10px;
+  font-family: 'Montserrat',sans-serf;
+}
+
+.reference-block {
+  font-family: 'Lato',sans-serif;
+  width: 40%;
+}
+
+.reference-block__name {
+  margin-top: 30px;
+  font-weight: bold;
+  font-family: 'Lato',sans-serif;
+  margin-bottom: 7px;
+}
+
+.reference-block__job {
+  color: #242424;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.reference-block__tel {
+  margin-bottom: 3px;
+}
+
+.reference-block__mail {
+  color: #00FFFF;
+  transition: all .3s;
+}
+
+.reference-block__mail:hover {
+  color: #006666;
+}

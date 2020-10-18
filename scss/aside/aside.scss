@@ -1,0 +1,147 @@
+$border-color : #CFDADB;
+$subtitle-color:#171717;
+$header-color:#00FFFF;
+
+$add-color: #3B3B3D;
+i{
+	font-size: 25px;
+	color: $add-color;
+	transition: all .3s;
+}
+.wrapper{
+display: grid;
+grid-template: 1fr / 390px 1fr;
+}
+.aside{
+	transition: all .3s;
+}
+.me{
+	padding-left: 45px;
+	padding-right: 20px;
+	border-right: 2px solid $border-color;
+	&-img{
+		position: relative;
+		top: -125px;
+		&__ava{
+			border-radius: 50%;
+		}
+	}
+}
+
+.skills{
+	&-item{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		&:not(:last-child)
+		{
+			margin-bottom: 10px;
+		}
+		&__name{
+		}
+		&__rate{
+			height: 8px;
+			border-radius: 5px;
+			width: 165px;
+			background-color: #B7B7B7;
+			position: relative;
+			margin-left: 10px;
+			}
+		}
+	}
+	.active{
+		opacity: 100% !important;
+	}
+	.footer{
+		height: 20px;
+		background-color: $add-color;
+		margin-top: 50px;
+	}
+	.fill{
+		border-radius: inherit;
+		height: inherit;
+		transition: all 1s ease-in;	
+	}
+	.filled{
+		width: 70%;
+		background-color: #000;
+		
+	}
+	.contact{
+		&__subtitle{
+			color: $subtitle-color;
+			margin-top: 30px;
+		}
+		&-field{
+			display: flex;
+			align-items: center;
+			transition: 0;
+			&__phone{
+				position: relative;
+				& .buffer{
+					transition: all .3s;
+					opacity: 0;
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					color: $header-color;
+					font-weight: bold;
+					z-index: 3;
+					background: #fff;
+				}
+			}
+			&:hover{
+				& p{
+					transition: inherit;
+					color: darken($header-color,10);
+					position: relative;
+				}
+				& i{
+					transition: inherit;
+					color: darken($header-color,25);
+				}
+			}
+			&:not(:last-child)
+			{
+				margin-bottom: 10px;
+			}
+			& i {
+				margin-right: 20px;
+			}
+		}
+	}
+	.data{
+		margin-top: 30px;
+		& label{
+			color: lighten($subtitle-color,15);
+		}
+		&__email{
+			font-size: 13px;
+			padding: 6px 0 4px 10px;
+			border: 1px solid #cecece;
+			background: #F6F6f6;
+			border-radius: 8px;
+		}
+		&__btn{
+			cursor: pointer;
+			background: transparent;
+			border: none;
+			margin-left: 10px;
+			&:hover{
+				& i {
+					color: $header-color;
+				}
+			}
+		}
+	}
+	.personal{
+		&__info{
+			color: lighten(#171717,10);
+			& > span{
+				color: $subtitle-color;
+				// font-weight: 600;
+			}
+		
+		}
+	}

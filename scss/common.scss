@@ -1,0 +1,17 @@
+@import url("./var.scss");
+$block-border:#CFDADB;
+$text-color:#B7C7C9;
+$header-color:#00FFFF;
+.text{
+	color: $text-color;
+	font-weight: 400;
+}
+.title{
+margin-top: 25px;
+margin-bottom: 25px;
+color: $header-color;
+font-weight: bold;
+line-height: 1.1;
+font-size: 1.5
+rem;
+}

@@ -1,0 +1,151 @@
+i {
+  font-size: 25px;
+  color: #3B3B3D;
+  transition: all .3s;
+}
+
+.wrapper {
+  display: grid;
+  grid-template: 1fr / 390px 1fr;
+}
+
+.aside {
+  transition: all .3s;
+}
+
+.me {
+  padding-left: 45px;
+  padding-right: 20px;
+  border-right: 2px solid #CFDADB;
+}
+
+.me-img {
+  position: relative;
+  top: -125px;
+}
+
+.me-img__ava {
+  border-radius: 50%;
+}
+
+.skills-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.skills-item__rate {
+  height: 8px;
+  border-radius: 5px;
+  width: 165px;
+  background-color: #B7B7B7;
+  position: relative;
+  margin-left: 10px;
+}
+
+.active {
+  opacity: 100% !important;
+}
+
+.footer {
+  height: 20px;
+  background-color: #3B3B3D;
+  margin-top: 50px;
+}
+
+.fill {
+  border-radius: inherit;
+  height: inherit;
+  transition: all 1s ease-in;
+}
+
+.filled {
+  width: 70%;
+  background-color: #000;
+}
+
+.contact__subtitle {
+  color: #171717;
+  margin-top: 30px;
+}
+
+.contact-field {
+  display: flex;
+  align-items: center;
+  transition: 0;
+}
+
+.contact-field__phone {
+  position: relative;
+}
+
+.contact-field__phone .buffer {
+  transition: all .3s;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #00FFFF;
+  font-weight: bold;
+  z-index: 3;
+  background: #fff;
+}
+
+.contact-field:hover p {
+  transition: inherit;
+  color: #00cccc;
+  position: relative;
+}
+
+.contact-field:hover i {
+  transition: inherit;
+  color: teal;
+}
+
+.contact-field:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contact-field i {
+  margin-right: 20px;
+}
+
+.data {
+  margin-top: 30px;
+}
+
+.data label {
+  color: #3d3d3d;
+}
+
+.data__email {
+  font-size: 13px;
+  padding: 6px 0 4px 10px;
+  border: 1px solid #cecece;
+  background: #F6F6f6;
+  border-radius: 8px;
+}
+
+.data__btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  margin-left: 10px;
+}
+
+.data__btn:hover i {
+  color: #00FFFF;
+}
+
+.personal__info {
+  color: #313131;
+}
+
+.personal__info > span {
+  color: #171717;
+}

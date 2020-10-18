@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Suhanov</title>
+
+	<script src="js/wow.min.js"></script>
+   <script>
+      new WOW().init();
+   </script>
+</head>
+
+<body>
+	<header class="header">
+		<div class="person">
+			<div class="person-container animated">
+				<h1 class="person__name animated
+
+				">Никита Суханов</h1>
+				<p class="person__job">Веб-программист</p>
+			</div>
+		</div>
+	</header>
+
+<div class="wrapper">
+
+<aside class="aside">
+	<div class="me">
+		<div class="me-img">
+			<img class="me-img__ava animated pulse" src="./img/me.jpg" alt="">
+		</div>
+		<div class="personal block">
+		<h2 class="personal__title title">Обо мне</h2>
+		<p class="personal__info text"><strong>День рождения : </strong><em>1 мая 2002</em></p>
+		<p class="personal__info text"><strong>Языки : </strong> <em>Русский, английский</em></p>
+		<p class="personal__info text"><strong>Интересы : </strong> <em>программирование, спорт, вокал</em></p>
+		<p class="personal__info text"><strong>Любимый язык :</strong><em> JavaScript</em></p>
+		</div>
+		<div class="skills block softskills">
+			<h2 class="skills__title title">КАЧЕСТВА</h2>
+			<div class="skills-block">
+				<div class="skills-item">
+					<h4 class="skills-item__name text">ТРУДОЛЮБИЕ</h4>
+					<div class="skills-item__rate"><div class="fill"></div></div>
+				</div>
+				<div class="skills-item">
+					<h4 class="skills-item__name text">ОБЩИТЕЛЬНОСТЬ</h4>
+					<div class="skills-item__rate"><div class="fill"></div></div>
+				</div>
+				<div class="skills-item">
+					<h4 class="skills-item__name text">ИНТЕЛЛЕКТ</h4>
+					<div class="skills-item__rate"><div class="fill"></div></div>
+				</div>
+				<div class="skills-item">
+					<h4 class="skills-item__name text">ОТВЕТСТВЕННОСТЬ</h4>
+					<div class="skills-item__rate"><div class="fill"></div></div>
+				</div>
+			</div>
+		</div>
+		<div class="skills block hardskills">
+			<h2 class="skills__title title">НАВЫКИ</h2>
+			<div class="skills-block">
+				<div class="skills-item">
+					<h4 class="skills-item__name text">HTML</h4>
+					<div class="skills-item__rate"><div class="fill"></div></div>
+				</div>
+				<div class="skills-item">
+					<h4 class="skills-item__name text">CSS</h4>
+					<div class="skills-item__rate"><div class="fill"></div></div>
+				</div>
+				<div class="skills-item">
+					<h4 class="skills-item__name text">JAVASCRIPT</h4>
+					<div class="skills-item__rate"><div class="fill"></div></div>
+				</div>
+				<div class="skills-item">
+					<h4 class="skills-item__name text">REACT</h4>
+					<div class="skills-item__rate"><div class="fill"></div></div>
+				</div>
+			</div>
+		</div>
+		<div class="contact">
+			<h2 class="contact__title title">КОНТАКТЫ</h2>
+			<div class="contact-field">
+				<a id="phone" class="contact-field" href="#"><i style="font-size: 30px;" class="fas fa-phone-volume"></i> 
+					<p class="contact-field__phone text">
+						+7-920-009-35-58
+						<span id="phoneBuffer" class="buffer">Скопировано!</span></p>
+					</p></a>
+			</div>
+			<a href="#" id="post" class="contact-field"><div class="contact-field">
+				<i class="fas fa-envelope-open"></i>
+				<p class="contact-field__phone text"> 
+					nik.152002@mail.ru
+					<span id="mailBuffer" class="buffer">Скопировано!</span></p>
+			</div></a>
+			<a href="https://vk.com/id124775822" target="_blank" class="contact-field">
+				<div class="contact-field">
+					<i class="fab fa-vk"></i>
+					<p class="contact-field__phone text">Я Вконтакте</p>
+				</div>
+			</a>
+			<h3 class="contact__subtitle">Я свяжусь с вами!</h3>
+			<form id="mailForm" action="http://localhost:8080/example" method="POST" class="data">
+				<label class="text" for="email">E-mail: </label><input required id="email" name="email" autocomplete="on" type="email" placeholder="Введите адрес" class="data__email"/><button id="btn" type="submit" class="data__btn"><i class="far fa-paper-plane"></i></button>
+			</form>
+		</div>
+	</div>
+</aside>
+
+<main>
+		<div class="main">
+			<div class="profile block fadeInLeft">
+				<h2 class="profile__title my title">Профиль</h2>
+				<div class="profile__text text">В 18 лет я поступил в ВУЗ и переехал в Москву. Обучаюсь на первом курсе института Информационных Технологий на кафедре Информатика и Вычислительная Техника(09.03.01) РТУ МИРЭА. Хорошо владею английским языком, свободно читаю документацию на английском языке. Обожаю JavaScript и все, что с ним связано.</div>
+			</div>
+
+			<div class="education">
+				<h2 class="education__title title">Образование</h2>
+				<div class="wrap">
+				<div class="education-block">
+					<h3 class="education-block__title title">Школа №9 г.Павлово с углубленным изучением отдельных предметов</h3>
+					<h4 class="education-block__subtitle text">МАТЕМАТИКА И АНГЛИЙСКИЙ</h4>
+					<p class="education-block__text text">Первые 9 лет в английском классе, 2 года - в математическом.</p>
+					<div class="education-block__date text">2009 - 2020</div>
+				</div>
+				<div class="education-block">
+					<h3 class="education-block__title title">РТУ МИРЭА, м.Юго-Западная</h3>
+					<h4 class="education-block__subtitle text">Информатика и Вычислительная Техника</h4>
+					<p class="education-block__text text">Первый курс, новая жизнь.</p>
+					<div class="education-block__date text">2020 - настоящее время</div>
+				</div>
+			</div>
+			</div>
+
+			<!-- <div class="experience block">
+				<h2 class="experience__title title">Experience</h2>
+				<div class="experience-block">
+					<h3 class="experience-block__title first">Junior Project Manager</h3>
+					<h4 class="experience-block__subtitle text">Compony | www.company.com</h4>
+					<p class="experience-block__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quisquam ea expedita repellat dolorem minima obcaecati ad nemo, quasi explicabo accusamus?</p>
+					<div class="experience-block__date text">Mar 2012 - Jun 2013</div>
+				</div>
+				<div class="experience-block">
+					<h3 class="experience-block__title">Junior Project Manager</h3>
+					<h4 class="experience-block__subtitle text">Compony | www.company.com</h4>
+					<p class="experience-block__text text">Discription. If successful in the tests, those who are considered by a hiring service to be suitable to their requirements will be invited. If successful in the tests, those who are considered by a hiring service</p>
+					<div class="experience-block__date text">Mar 2012 - Jun 2013</div>
+				</div>
+				<div class="experience-block">
+					<h3 class="experience-block__title">Junior Project Manager</h3>
+					<h4 class="experience-block__subtitle text">Compony | www.company.com</h4>
+					<p class="experience-block__text text">Discription. If successful in the tests, those who are considered by a hiring service to be suitable to their requirements will be invited. If successful in the tests, those who are considered by a hiring service</p>
+					<div class="experience-block__date text">Mar 2012 - Jun 2013</div>
+				</div>
+				<div class="experience-block">
+					<h3 class="experience-block__title">Junior Project Manager</h3>
+					<h4 class="experience-block__subtitle text">Compony | www.company.com</h4>
+					<p class="experience-block__text text">Discription. If successful in the tests, those who are considered by a hiring service to be suitable to their requirements will be invited. If successful in the tests, those who are considered by a hiring service</p>
+					<div class="experience-block__date text">Mar 2012 - Jun 2013</div>
+				</div>
+			</div> -->
+
+			<!-- <div class="reference">
+				<h2 class="reference__title title">REFERENCE</h2>
+				<div class="wrap">
+					<div class="reference-block">
+						<div class="reference-block__name">Michael Johns</div>
+						<p class="reference-block__job text"> Manager/Company</p>
+						<div class="reference-block__tel text"><span class="decor">T</span>+1 0123 456 789</div>
+						<a href="https://mail.ru/" class="reference-block__mail text"><span class="decor">E</span>nik.152002@mail.ru</a>
+					</div>
+					<div class="reference-block">
+						<div class="reference-block__name">Michael Johns</div>
+						<p class="reference-block__job text"> Manager/Company</p>
+						<div class="reference-block__tel text"><span class="decor">T</span>+1 0123 456 789</div>
+						<a href="https://mail.ru/" class="reference-block__mail text"><span class="decor">E</span>nik.152002@mail.ru</a>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</main>
+</div>
+<!-- Подключаю написанные скрипты -->
+<script src="./js/buffer.js"></script>
+<script src="js/animatePage.js"></script>
+<script src="js/rate-animate.js"></script>
+<script src="js/preloader.js"></script>
+<!-- <script src="./js/common.js"></script>
+<script src="js/mail.js"></script> -->
+<footer><div class="footer"></div></footer>	
+</body>
+</html>
