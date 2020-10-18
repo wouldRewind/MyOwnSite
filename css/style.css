@@ -1,7 +1,7 @@
-@import url("/css/common.css");
-@import url("/css/aside.css");
-@import url("/css/profile.css");
-@import url("/css/header.css");
+@import url("common.css");
+@import url("aside.css");
+@import url("profile.css");
+@import url("header.css");
 *{
 	margin: 0;
 	padding: 0;
